@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  font-family: "Gill Sans", Calibri, sans-serif;
+  border: 1px solid silver;
+  padding: 15px;
+}
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+}
+.content {
+  font-size: 18px;
+  padding-left: 15px;
+}
+.author .name {
+  font-weight: bold;
+}
+.author .handle,
+.time {
+  color: darkslategrey;
+}
+.message {
+  margin: 5px 0;
+}
+.buttons {
+  padding-top: 10px;
+  color: grey;
+  margin: 0;
+}
+.buttons .fa:not(:first-child) {
+  margin-left: 50px;
+}
